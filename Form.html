@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body background="h.jpg" width="90%">
+    
+    <form>
+        
+           <legend><h1><center>PAYMENT TIME!</center></h1></legend>
+            <div>FirstName: *  &nbsp;<input type="text" required placeholder="Siri"></div><br>
+            <div>LastName: * &nbsp;<input type="text" required placeholder="Shaw"></div><br>
+            <span class="g">Gender</span></Gender> <div>Male <input type="radio" name="gender" value= "Male"> Female <input type="radio" name="gender" value= "Female"></div>
+       
+        <p>&nbsp;Address:<br><textarea placeholder="Enter Your Address" name="add" cols="60" rows="10"></textarea></p>
+    <p>Email: * &nbsp;<input type="email" required placeholder="sirishaw12@gmail.com"></p>
+    <p>Picode: &nbsp;<input type="number" placeholder="123456"></p>
+   <legend><h1><center>PAYMENT INFORMATION</center></h1></legend>
+   <p>Card Type: &nbsp; 
+    <select class="card" name="card type" id="card type" required>
+        <option value="--Select Card Type--">--Select Card Type--</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Rupay">Rupay</option>
+    </select>
+   </p>
+   <p>Card Number:&nbsp; <input type="number" placeholder="2106 4569 4587 1452"></p>
+   <p>
+    Expiry Date:&nbsp; <input type="date">
+   </p>
+   <p>
+    CVV Number:&nbsp; <input type="number" placeholder="123">
+   </p>
+    <input class=button type="submit" value="Pay Now">
+</form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+*{
+  margin: 5px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 40px;
+    padding: 10px 20px;
+    border: 3px solid black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    opacity: 100%;
+    border-radius: 5px;
+    float: right;
+}
+
+input,placeholder,textarea,radio{
+    background-color: rgba(255, 102, 85, 0.834);
+    border-radius: 5px;
+    border: 2px solid black;
+    color: #000;
+   
+}
+
+ h1{
+    text-decoration:underline;
+    color: rgb(15, 14, 14);
+    background-color: rgba(255, 102, 85, 0.834);
+    border-radius: 5px;
+    padding: 0px;
+   
+ }
+
+ div,p{
+    font-size: 19px;
+  }
+
+  .button:hover{
+    background-color: rgb(251, 123, 123);
+    cursor: pointer;
+      }
+
+    .button{
+        margin: 10px 8px;
+        width: 100%; 
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .card{
+        background-color: rgba(255, 102, 85, 0.834);
+        border-radius: 5px;
+        border: 3px solid black;
+    }
+    .g{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
